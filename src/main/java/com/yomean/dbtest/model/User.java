@@ -9,14 +9,14 @@ public class User {
 
     private String name;
 
-    private String sex;
+    private int age;
 
     @Override
     public String toString() {
         return "User{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
-                ", sex='" + sex + '\'' +
+                ", age=" + age +
                 '}';
     }
 
@@ -36,11 +36,11 @@ public class User {
         this.name = name;
     }
 
-    public String getSex() {
-        return sex;
+    public int getAge() {
+        return age;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setAge(int age) {
+        this.age = age;
     }
 }
